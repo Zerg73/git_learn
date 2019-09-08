@@ -1,0 +1,1667 @@
+
+Microsoft (R) Windows Debugger Version 10.0.18972.1001 AMD64
+Copyright (c) Microsoft Corporation. All rights reserved.
+
+
+Loading Dump File [C:\Windows\Minidump\090819-16390-01.dmp]
+Mini Kernel Dump File: Only registers and stack trace are available
+
+
+************* Path validation summary **************
+Response                         Time (ms)     Location
+Deferred                                       srv*
+DBGHELP: Symbol Search Path: cache*;SRV*https://msdl.microsoft.com/download/symbols
+Symbol search path is: srv*
+Executable search path is: 
+SYMSRV:  BYINDEX: 0x1
+         C:\ProgramData\Dbg\sym
+         ntoskrnl.exe
+         B39AD386ab6000
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\ntoskrnl.exe\B39AD386ab6000\ntoskrnl.exe - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\ntoskrnl.exe\B39AD386ab6000\ntoskrnl.ex_ - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\ntoskrnl.exe\B39AD386ab6000\file.ptr - path not found
+SYMSRV:  RESULT: 0x80070003
+SYMSRV:  BYINDEX: 0x2
+         C:\ProgramData\Dbg\sym*https://msdl.microsoft.com/download/symbols
+         ntoskrnl.exe
+         B39AD386ab6000
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\ntoskrnl.exe\B39AD386ab6000\ntoskrnl.exe - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\ntoskrnl.exe\B39AD386ab6000\ntoskrnl.ex_ - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\ntoskrnl.exe\B39AD386ab6000\file.ptr - path not found
+SYMSRV:  HTTPGET: /download/symbols/index2.txt
+SYMSRV:  HttpQueryInfo: 80190190 - HTTP_STATUS_BAD_REQUEST
+SYMSRV:  HTTPGET: /download/symbols/ntoskrnl.exe/B39AD386ab6000/ntoskrnl.exe
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  HTTPGET: /download/symbols/ntoskrnl.exe/B39AD386ab6000/ntoskrnl.ex_
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  HTTPGET: /download/symbols/ntoskrnl.exe/B39AD386ab6000/file.ptr
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  RESULT: 0x80190194
+SYMSRV:  BYINDEX: 0x3
+         C:\ProgramData\Dbg\sym
+         ntkrnlup.exe
+         B39AD386ab6000
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\ntkrnlup.exe\B39AD386ab6000\ntkrnlup.exe - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\ntkrnlup.exe\B39AD386ab6000\ntkrnlup.ex_ - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\ntkrnlup.exe\B39AD386ab6000\file.ptr - path not found
+SYMSRV:  RESULT: 0x80070003
+SYMSRV:  BYINDEX: 0x4
+         C:\ProgramData\Dbg\sym*https://msdl.microsoft.com/download/symbols
+         ntkrnlup.exe
+         B39AD386ab6000
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\ntkrnlup.exe\B39AD386ab6000\ntkrnlup.exe - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\ntkrnlup.exe\B39AD386ab6000\ntkrnlup.ex_ - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\ntkrnlup.exe\B39AD386ab6000\file.ptr - path not found
+SYMSRV:  HTTPGET: /download/symbols/ntkrnlup.exe/B39AD386ab6000/ntkrnlup.exe
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  HTTPGET: /download/symbols/ntkrnlup.exe/B39AD386ab6000/ntkrnlup.ex_
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  HTTPGET: /download/symbols/ntkrnlup.exe/B39AD386ab6000/file.ptr
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  RESULT: 0x80190194
+SYMSRV:  BYINDEX: 0x5
+         C:\ProgramData\Dbg\sym
+         ntkrnlpa.exe
+         B39AD386ab6000
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\ntkrnlpa.exe\B39AD386ab6000\ntkrnlpa.exe - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\ntkrnlpa.exe\B39AD386ab6000\ntkrnlpa.ex_ - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\ntkrnlpa.exe\B39AD386ab6000\file.ptr - path not found
+SYMSRV:  RESULT: 0x80070003
+SYMSRV:  BYINDEX: 0x6
+         C:\ProgramData\Dbg\sym*https://msdl.microsoft.com/download/symbols
+         ntkrnlpa.exe
+         B39AD386ab6000
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\ntkrnlpa.exe\B39AD386ab6000\ntkrnlpa.exe - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\ntkrnlpa.exe\B39AD386ab6000\ntkrnlpa.ex_ - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\ntkrnlpa.exe\B39AD386ab6000\file.ptr - path not found
+SYMSRV:  HTTPGET: /download/symbols/ntkrnlpa.exe/B39AD386ab6000/ntkrnlpa.exe
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  HTTPGET: /download/symbols/ntkrnlpa.exe/B39AD386ab6000/ntkrnlpa.ex_
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  HTTPGET: /download/symbols/ntkrnlpa.exe/B39AD386ab6000/file.ptr
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  RESULT: 0x80190194
+SYMSRV:  BYINDEX: 0x7
+         C:\ProgramData\Dbg\sym
+         ntkrnlmp.exe
+         B39AD386ab6000
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\ntkrnlmp.exe\B39AD386ab6000\ntkrnlmp.exe - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\ntkrnlmp.exe\B39AD386ab6000\ntkrnlmp.ex_ - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\ntkrnlmp.exe\B39AD386ab6000\file.ptr - path not found
+SYMSRV:  RESULT: 0x80070003
+SYMSRV:  BYINDEX: 0x8
+         C:\ProgramData\Dbg\sym*https://msdl.microsoft.com/download/symbols
+         ntkrnlmp.exe
+         B39AD386ab6000
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\ntkrnlmp.exe\B39AD386ab6000\ntkrnlmp.exe - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\ntkrnlmp.exe\B39AD386ab6000\ntkrnlmp.ex_ - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\ntkrnlmp.exe\B39AD386ab6000\file.ptr - path not found
+SYMSRV:  HTTPGET: /download/symbols/ntkrnlmp.exe/B39AD386ab6000/ntkrnlmp.exe
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  HTTPGET: /download/symbols/ntkrnlmp.exe/B39AD386ab6000/ntkrnlmp.ex_
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  HTTPGET: /download/symbols/ntkrnlmp.exe/B39AD386ab6000/file.ptr
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  RESULT: 0x80190194
+SYMSRV:  BYINDEX: 0x9
+         C:\ProgramData\Dbg\sym
+         ntkrpamp.exe
+         B39AD386ab6000
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\ntkrpamp.exe\B39AD386ab6000\ntkrpamp.exe - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\ntkrpamp.exe\B39AD386ab6000\ntkrpamp.ex_ - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\ntkrpamp.exe\B39AD386ab6000\file.ptr - path not found
+SYMSRV:  RESULT: 0x80070003
+SYMSRV:  BYINDEX: 0xA
+         C:\ProgramData\Dbg\sym*https://msdl.microsoft.com/download/symbols
+         ntkrpamp.exe
+         B39AD386ab6000
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\ntkrpamp.exe\B39AD386ab6000\ntkrpamp.exe - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\ntkrpamp.exe\B39AD386ab6000\ntkrpamp.ex_ - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\ntkrpamp.exe\B39AD386ab6000\file.ptr - path not found
+SYMSRV:  HTTPGET: /download/symbols/ntkrpamp.exe/B39AD386ab6000/ntkrpamp.exe
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  HTTPGET: /download/symbols/ntkrpamp.exe/B39AD386ab6000/ntkrpamp.ex_
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  HTTPGET: /download/symbols/ntkrpamp.exe/B39AD386ab6000/file.ptr
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  RESULT: 0x80190194
+SYMSRV:  BYINDEX: 0xB
+         C:\ProgramData\Dbg\sym
+         xboxkrnlc.exe
+         B39AD386ab6000
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\xboxkrnlc.exe\B39AD386ab6000\xboxkrnlc.exe - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\xboxkrnlc.exe\B39AD386ab6000\xboxkrnlc.ex_ - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\xboxkrnlc.exe\B39AD386ab6000\file.ptr - path not found
+SYMSRV:  RESULT: 0x80070003
+SYMSRV:  BYINDEX: 0xC
+         C:\ProgramData\Dbg\sym*https://msdl.microsoft.com/download/symbols
+         xboxkrnlc.exe
+         B39AD386ab6000
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\xboxkrnlc.exe\B39AD386ab6000\xboxkrnlc.exe - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\xboxkrnlc.exe\B39AD386ab6000\xboxkrnlc.ex_ - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\xboxkrnlc.exe\B39AD386ab6000\file.ptr - path not found
+SYMSRV:  HTTPGET: /download/symbols/xboxkrnlc.exe/B39AD386ab6000/xboxkrnlc.exe
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  HTTPGET: /download/symbols/xboxkrnlc.exe/B39AD386ab6000/xboxkrnlc.ex_
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  HTTPGET: /download/symbols/xboxkrnlc.exe/B39AD386ab6000/file.ptr
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  RESULT: 0x80190194
+DBGHELP: C:\WINDOWS\system32\ntoskrnl.exe - OK
+DBGENG:  C:\WINDOWS\system32\ntoskrnl.exe - Mapped image memory
+SYMSRV:  BYINDEX: 0xD
+         C:\ProgramData\Dbg\sym
+         ntkrnlmp.pdb
+         764E7B5EF4C46505F6DB74C5C8AC5CB21
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\ntkrnlmp.pdb\764E7B5EF4C46505F6DB74C5C8AC5CB21\ntkrnlmp.pdb - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\ntkrnlmp.pdb\764E7B5EF4C46505F6DB74C5C8AC5CB21\ntkrnlmp.pd_ - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\ntkrnlmp.pdb\764E7B5EF4C46505F6DB74C5C8AC5CB21\file.ptr - path not found
+SYMSRV:  RESULT: 0x80070003
+SYMSRV:  BYINDEX: 0xE
+         C:\ProgramData\Dbg\sym*https://msdl.microsoft.com/download/symbols
+         ntkrnlmp.pdb
+         764E7B5EF4C46505F6DB74C5C8AC5CB21
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\ntkrnlmp.pdb\764E7B5EF4C46505F6DB74C5C8AC5CB21\ntkrnlmp.pdb - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\ntkrnlmp.pdb\764E7B5EF4C46505F6DB74C5C8AC5CB21\ntkrnlmp.pd_ - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\ntkrnlmp.pdb\764E7B5EF4C46505F6DB74C5C8AC5CB21\file.ptr - path not found
+SYMSRV:  HTTPGET: /download/symbols/ntkrnlmp.pdb/764E7B5EF4C46505F6DB74C5C8AC5CB21/ntkrnlmp.pdb
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  HTTPGET: /download/symbols/ntkrnlmp.pdb/764E7B5EF4C46505F6DB74C5C8AC5CB21/ntkrnlmp.pd_
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  HTTPGET: /download/symbols/ntkrnlmp.pdb/764E7B5EF4C46505F6DB74C5C8AC5CB21/file.ptr
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  RESULT: 0x80190194
+DBGHELP: ntkrnlmp.pdb - file not found
+DBGHELP: nt - export symbols
+Windows 10 Kernel Version 18362 MP (6 procs) Free x64
+Product: WinNt, suite: TerminalServer SingleUserTS
+Machine Name:
+Kernel base = 0xfffff800`08200000 PsLoadedModuleList = 0xfffff800`086474d0
+Debug session time: Sun Sep  8 18:19:13.060 2019 (UTC + 8:00)
+System Uptime: 0 days 1:24:50.904
+SYMSRV:  BYINDEX: 0xF
+         C:\ProgramData\Dbg\sym
+         ntoskrnl.exe
+         B39AD386ab6000
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\ntoskrnl.exe\B39AD386ab6000\ntoskrnl.exe - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\ntoskrnl.exe\B39AD386ab6000\ntoskrnl.ex_ - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\ntoskrnl.exe\B39AD386ab6000\file.ptr - path not found
+SYMSRV:  RESULT: 0x80070003
+SYMSRV:  BYINDEX: 0x10
+         C:\ProgramData\Dbg\sym*https://msdl.microsoft.com/download/symbols
+         ntoskrnl.exe
+         B39AD386ab6000
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\ntoskrnl.exe\B39AD386ab6000\ntoskrnl.exe - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\ntoskrnl.exe\B39AD386ab6000\ntoskrnl.ex_ - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\ntoskrnl.exe\B39AD386ab6000\file.ptr - path not found
+SYMSRV:  HTTPGET: /download/symbols/ntoskrnl.exe/B39AD386ab6000/ntoskrnl.exe
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  HTTPGET: /download/symbols/ntoskrnl.exe/B39AD386ab6000/ntoskrnl.ex_
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  HTTPGET: /download/symbols/ntoskrnl.exe/B39AD386ab6000/file.ptr
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  RESULT: 0x80190194
+SYMSRV:  BYINDEX: 0x11
+         C:\ProgramData\Dbg\sym
+         ntkrnlup.exe
+         B39AD386ab6000
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\ntkrnlup.exe\B39AD386ab6000\ntkrnlup.exe - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\ntkrnlup.exe\B39AD386ab6000\ntkrnlup.ex_ - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\ntkrnlup.exe\B39AD386ab6000\file.ptr - path not found
+SYMSRV:  RESULT: 0x80070003
+SYMSRV:  BYINDEX: 0x12
+         C:\ProgramData\Dbg\sym*https://msdl.microsoft.com/download/symbols
+         ntkrnlup.exe
+         B39AD386ab6000
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\ntkrnlup.exe\B39AD386ab6000\ntkrnlup.exe - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\ntkrnlup.exe\B39AD386ab6000\ntkrnlup.ex_ - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\ntkrnlup.exe\B39AD386ab6000\file.ptr - path not found
+SYMSRV:  HTTPGET: /download/symbols/ntkrnlup.exe/B39AD386ab6000/ntkrnlup.exe
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  HTTPGET: /download/symbols/ntkrnlup.exe/B39AD386ab6000/ntkrnlup.ex_
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  HTTPGET: /download/symbols/ntkrnlup.exe/B39AD386ab6000/file.ptr
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  RESULT: 0x80190194
+SYMSRV:  BYINDEX: 0x13
+         C:\ProgramData\Dbg\sym
+         ntkrnlpa.exe
+         B39AD386ab6000
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\ntkrnlpa.exe\B39AD386ab6000\ntkrnlpa.exe - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\ntkrnlpa.exe\B39AD386ab6000\ntkrnlpa.ex_ - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\ntkrnlpa.exe\B39AD386ab6000\file.ptr - path not found
+SYMSRV:  RESULT: 0x80070003
+SYMSRV:  BYINDEX: 0x14
+         C:\ProgramData\Dbg\sym*https://msdl.microsoft.com/download/symbols
+         ntkrnlpa.exe
+         B39AD386ab6000
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\ntkrnlpa.exe\B39AD386ab6000\ntkrnlpa.exe - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\ntkrnlpa.exe\B39AD386ab6000\ntkrnlpa.ex_ - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\ntkrnlpa.exe\B39AD386ab6000\file.ptr - path not found
+SYMSRV:  HTTPGET: /download/symbols/ntkrnlpa.exe/B39AD386ab6000/ntkrnlpa.exe
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  HTTPGET: /download/symbols/ntkrnlpa.exe/B39AD386ab6000/ntkrnlpa.ex_
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  HTTPGET: /download/symbols/ntkrnlpa.exe/B39AD386ab6000/file.ptr
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  RESULT: 0x80190194
+SYMSRV:  BYINDEX: 0x15
+         C:\ProgramData\Dbg\sym
+         ntkrnlmp.exe
+         B39AD386ab6000
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\ntkrnlmp.exe\B39AD386ab6000\ntkrnlmp.exe - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\ntkrnlmp.exe\B39AD386ab6000\ntkrnlmp.ex_ - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\ntkrnlmp.exe\B39AD386ab6000\file.ptr - path not found
+SYMSRV:  RESULT: 0x80070003
+SYMSRV:  BYINDEX: 0x16
+         C:\ProgramData\Dbg\sym*https://msdl.microsoft.com/download/symbols
+         ntkrnlmp.exe
+         B39AD386ab6000
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\ntkrnlmp.exe\B39AD386ab6000\ntkrnlmp.exe - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\ntkrnlmp.exe\B39AD386ab6000\ntkrnlmp.ex_ - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\ntkrnlmp.exe\B39AD386ab6000\file.ptr - path not found
+SYMSRV:  HTTPGET: /download/symbols/ntkrnlmp.exe/B39AD386ab6000/ntkrnlmp.exe
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  HTTPGET: /download/symbols/ntkrnlmp.exe/B39AD386ab6000/ntkrnlmp.ex_
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  HTTPGET: /download/symbols/ntkrnlmp.exe/B39AD386ab6000/file.ptr
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  RESULT: 0x80190194
+SYMSRV:  BYINDEX: 0x17
+         C:\ProgramData\Dbg\sym
+         ntkrpamp.exe
+         B39AD386ab6000
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\ntkrpamp.exe\B39AD386ab6000\ntkrpamp.exe - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\ntkrpamp.exe\B39AD386ab6000\ntkrpamp.ex_ - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\ntkrpamp.exe\B39AD386ab6000\file.ptr - path not found
+SYMSRV:  RESULT: 0x80070003
+SYMSRV:  BYINDEX: 0x18
+         C:\ProgramData\Dbg\sym*https://msdl.microsoft.com/download/symbols
+         ntkrpamp.exe
+         B39AD386ab6000
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\ntkrpamp.exe\B39AD386ab6000\ntkrpamp.exe - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\ntkrpamp.exe\B39AD386ab6000\ntkrpamp.ex_ - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\ntkrpamp.exe\B39AD386ab6000\file.ptr - path not found
+SYMSRV:  HTTPGET: /download/symbols/ntkrpamp.exe/B39AD386ab6000/ntkrpamp.exe
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  HTTPGET: /download/symbols/ntkrpamp.exe/B39AD386ab6000/ntkrpamp.ex_
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  HTTPGET: /download/symbols/ntkrpamp.exe/B39AD386ab6000/file.ptr
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  RESULT: 0x80190194
+SYMSRV:  BYINDEX: 0x19
+         C:\ProgramData\Dbg\sym
+         xboxkrnlc.exe
+         B39AD386ab6000
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\xboxkrnlc.exe\B39AD386ab6000\xboxkrnlc.exe - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\xboxkrnlc.exe\B39AD386ab6000\xboxkrnlc.ex_ - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\xboxkrnlc.exe\B39AD386ab6000\file.ptr - path not found
+SYMSRV:  RESULT: 0x80070003
+SYMSRV:  BYINDEX: 0x1A
+         C:\ProgramData\Dbg\sym*https://msdl.microsoft.com/download/symbols
+         xboxkrnlc.exe
+         B39AD386ab6000
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\xboxkrnlc.exe\B39AD386ab6000\xboxkrnlc.exe - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\xboxkrnlc.exe\B39AD386ab6000\xboxkrnlc.ex_ - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\xboxkrnlc.exe\B39AD386ab6000\file.ptr - path not found
+SYMSRV:  HTTPGET: /download/symbols/xboxkrnlc.exe/B39AD386ab6000/xboxkrnlc.exe
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  HTTPGET: /download/symbols/xboxkrnlc.exe/B39AD386ab6000/xboxkrnlc.ex_
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  HTTPGET: /download/symbols/xboxkrnlc.exe/B39AD386ab6000/file.ptr
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  RESULT: 0x80190194
+DBGHELP: C:\WINDOWS\system32\ntoskrnl.exe - OK
+DBGENG:  C:\WINDOWS\system32\ntoskrnl.exe - Mapped image memory
+SYMSRV:  BYINDEX: 0x1B
+         C:\ProgramData\Dbg\sym
+         ntkrnlmp.pdb
+         764E7B5EF4C46505F6DB74C5C8AC5CB21
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\ntkrnlmp.pdb\764E7B5EF4C46505F6DB74C5C8AC5CB21\ntkrnlmp.pdb - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\ntkrnlmp.pdb\764E7B5EF4C46505F6DB74C5C8AC5CB21\ntkrnlmp.pd_ - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\ntkrnlmp.pdb\764E7B5EF4C46505F6DB74C5C8AC5CB21\file.ptr - path not found
+SYMSRV:  RESULT: 0x80070003
+SYMSRV:  BYINDEX: 0x1C
+         C:\ProgramData\Dbg\sym*https://msdl.microsoft.com/download/symbols
+         ntkrnlmp.pdb
+         764E7B5EF4C46505F6DB74C5C8AC5CB21
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\ntkrnlmp.pdb\764E7B5EF4C46505F6DB74C5C8AC5CB21\ntkrnlmp.pdb - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\ntkrnlmp.pdb\764E7B5EF4C46505F6DB74C5C8AC5CB21\ntkrnlmp.pd_ - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\ntkrnlmp.pdb\764E7B5EF4C46505F6DB74C5C8AC5CB21\file.ptr - path not found
+SYMSRV:  HTTPGET: /download/symbols/ntkrnlmp.pdb/764E7B5EF4C46505F6DB74C5C8AC5CB21/ntkrnlmp.pdb
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  HTTPGET: /download/symbols/ntkrnlmp.pdb/764E7B5EF4C46505F6DB74C5C8AC5CB21/ntkrnlmp.pd_
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  HTTPGET: /download/symbols/ntkrnlmp.pdb/764E7B5EF4C46505F6DB74C5C8AC5CB21/file.ptr
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  RESULT: 0x80190194
+DBGHELP: ntkrnlmp.pdb - file not found
+DBGHELP: nt - export symbols
+Loading Kernel Symbols
+.SYMSRV:  BYINDEX: 0x1D
+         C:\ProgramData\Dbg\sym
+         halaacpi.dll
+         4E924194a3000
+SYMSRV:  PATH: C:\ProgramData\Dbg\sym\halaacpi.dll\4E924194a3000\halaacpi.dll
+SYMSRV:  RESULT: 0x00000000
+DBGHELP: C:\ProgramData\Dbg\sym\halaacpi.dll\4E924194a3000\halaacpi.dll - OK
+DBGENG:  C:\ProgramData\Dbg\sym\halaacpi.dll\4E924194a3000\halaacpi.dll - Mapped image memory
+.SYMSRV:  BYINDEX: 0x1E
+         C:\ProgramData\Dbg\sym
+         kdcom.dll
+         5A75D524b000
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\kdcom.dll\5A75D524b000\kdcom.dll - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\kdcom.dll\5A75D524b000\kdcom.dl_ - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\kdcom.dll\5A75D524b000\file.ptr - path not found
+SYMSRV:  RESULT: 0x80070003
+SYMSRV:  BYINDEX: 0x1F
+         C:\ProgramData\Dbg\sym*https://msdl.microsoft.com/download/symbols
+         kdcom.dll
+         5A75D524b000
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\kdcom.dll\5A75D524b000\kdcom.dll - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\kdcom.dll\5A75D524b000\kdcom.dl_ - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\kdcom.dll\5A75D524b000\file.ptr - path not found
+SYMSRV:  HTTPGET: /download/symbols/kdcom.dll/5A75D524b000/kdcom.dll
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  HTTPGET: /download/symbols/kdcom.dll/5A75D524b000/kdcom.dl_
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  HTTPGET: /download/symbols/kdcom.dll/5A75D524b000/file.ptr
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  RESULT: 0x80190194
+SYMSRV:  BYINDEX: 0x20
+         C:\ProgramData\Dbg\sym
+         kdusb.dll
+         5A75D524b000
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\kdusb.dll\5A75D524b000\kdusb.dll - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\kdusb.dll\5A75D524b000\kdusb.dl_ - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\kdusb.dll\5A75D524b000\file.ptr - path not found
+SYMSRV:  RESULT: 0x80070003
+SYMSRV:  BYINDEX: 0x21
+         C:\ProgramData\Dbg\sym*https://msdl.microsoft.com/download/symbols
+         kdusb.dll
+         5A75D524b000
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\kdusb.dll\5A75D524b000\kdusb.dll - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\kdusb.dll\5A75D524b000\kdusb.dl_ - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\kdusb.dll\5A75D524b000\file.ptr - path not found
+SYMSRV:  HTTPGET: /download/symbols/kdusb.dll/5A75D524b000/kdusb.dll
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  HTTPGET: /download/symbols/kdusb.dll/5A75D524b000/kdusb.dl_
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  HTTPGET: /download/symbols/kdusb.dll/5A75D524b000/file.ptr
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  RESULT: 0x80190194
+SYMSRV:  BYINDEX: 0x22
+         C:\ProgramData\Dbg\sym
+         kd1394.dll
+         5A75D524b000
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\kd1394.dll\5A75D524b000\kd1394.dll - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\kd1394.dll\5A75D524b000\kd1394.dl_ - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\kd1394.dll\5A75D524b000\file.ptr - path not found
+SYMSRV:  RESULT: 0x80070003
+SYMSRV:  BYINDEX: 0x23
+         C:\ProgramData\Dbg\sym*https://msdl.microsoft.com/download/symbols
+         kd1394.dll
+         5A75D524b000
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\kd1394.dll\5A75D524b000\kd1394.dll - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\kd1394.dll\5A75D524b000\kd1394.dl_ - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\kd1394.dll\5A75D524b000\file.ptr - path not found
+SYMSRV:  HTTPGET: /download/symbols/kd1394.dll/5A75D524b000/kd1394.dll
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  HTTPGET: /download/symbols/kd1394.dll/5A75D524b000/kd1394.dl_
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  HTTPGET: /download/symbols/kd1394.dll/5A75D524b000/file.ptr
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  RESULT: 0x80190194
+SYMSRV:  BYINDEX: 0x24
+         C:\ProgramData\Dbg\sym
+         kdnet.dll
+         5A75D524b000
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\kdnet.dll\5A75D524b000\kdnet.dll - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\kdnet.dll\5A75D524b000\kdnet.dl_ - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\kdnet.dll\5A75D524b000\file.ptr - path not found
+SYMSRV:  RESULT: 0x80070003
+SYMSRV:  BYINDEX: 0x25
+         C:\ProgramData\Dbg\sym*https://msdl.microsoft.com/download/symbols
+         kdnet.dll
+         5A75D524b000
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\kdnet.dll\5A75D524b000\kdnet.dll - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\kdnet.dll\5A75D524b000\kdnet.dl_ - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\kdnet.dll\5A75D524b000\file.ptr - path not found
+SYMSRV:  HTTPGET: /download/symbols/kdnet.dll/5A75D524b000/kdnet.dll
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  HTTPGET: /download/symbols/kdnet.dll/5A75D524b000/kdnet.dl_
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  HTTPGET: /download/symbols/kdnet.dll/5A75D524b000/file.ptr
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  RESULT: 0x80190194
+DBGHELP: C:\WINDOWS\system32\kdcom.dll - mismatched timestamp
+DBGHELP: C:\WINDOWS\system32\kdusb.dll - mismatched timestamp
+DBGHELP: C:\WINDOWS\system32\kd1394.dll - file not found
+DBGHELP: C:\WINDOWS\system32\kdnet.dll - mismatched timestamp
+SYMSRV:  BYINDEX: 0x26
+         https://msdl.microsoft.com/download/symbols
+         kdcom.dll
+         5A75D524b000
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\kdcom.dll\5A75D524b000\kdcom.dll - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\kdcom.dll\5A75D524b000\kdcom.dl_ - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\kdcom.dll\5A75D524b000\file.ptr - path not found
+SYMSRV:  HTTPGET: /download/symbols/kdcom.dll/5A75D524b000/kdcom.dll
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  HTTPGET: /download/symbols/kdcom.dll/5A75D524b000/kdcom.dl_
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  HTTPGET: /download/symbols/kdcom.dll/5A75D524b000/file.ptr
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  RESULT: 0x80190194
+SYMSRV:  BYINDEX: 0x27
+         https://msdl.microsoft.com/download/symbols
+         kdusb.dll
+         5A75D524b000
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\kdusb.dll\5A75D524b000\kdusb.dll - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\kdusb.dll\5A75D524b000\kdusb.dl_ - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\kdusb.dll\5A75D524b000\file.ptr - path not found
+SYMSRV:  HTTPGET: /download/symbols/kdusb.dll/5A75D524b000/kdusb.dll
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  HTTPGET: /download/symbols/kdusb.dll/5A75D524b000/kdusb.dl_
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  HTTPGET: /download/symbols/kdusb.dll/5A75D524b000/file.ptr
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  RESULT: 0x80190194
+SYMSRV:  BYINDEX: 0x28
+         https://msdl.microsoft.com/download/symbols
+         kd1394.dll
+         5A75D524b000
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\kd1394.dll\5A75D524b000\kd1394.dll - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\kd1394.dll\5A75D524b000\kd1394.dl_ - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\kd1394.dll\5A75D524b000\file.ptr - path not found
+SYMSRV:  HTTPGET: /download/symbols/kd1394.dll/5A75D524b000/kd1394.dll
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  HTTPGET: /download/symbols/kd1394.dll/5A75D524b000/kd1394.dl_
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  HTTPGET: /download/symbols/kd1394.dll/5A75D524b000/file.ptr
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  RESULT: 0x80190194
+SYMSRV:  BYINDEX: 0x29
+         https://msdl.microsoft.com/download/symbols
+         kdnet.dll
+         5A75D524b000
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\kdnet.dll\5A75D524b000\kdnet.dll - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\kdnet.dll\5A75D524b000\kdnet.dl_ - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\kdnet.dll\5A75D524b000\file.ptr - path not found
+SYMSRV:  HTTPGET: /download/symbols/kdnet.dll/5A75D524b000/kdnet.dll
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  HTTPGET: /download/symbols/kdnet.dll/5A75D524b000/kdnet.dl_
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  HTTPGET: /download/symbols/kdnet.dll/5A75D524b000/file.ptr
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  RESULT: 0x80190194
+DBGENG:  kdcom.dll - Image mapping disallowed by non-local path.
+
+
+Press ctrl-c (cdb, kd, ntsd) or ctrl-break (windbg) to abort symbol loads that take too long.
+Run !sym noisy before .reload to track down problems loading symbols.
+
+.............................................................
+................................................................
+................................................................
+.......................
+Loading User Symbols
+Loading unloaded module list
+.........
+
+************* Symbol Loading Error Summary **************
+Module name            Error
+ntkrnlmp               The system cannot find the file specified
+				The SYMSRV client failed to find a file in the UNC store, or there
+				is an invalid UNC store (an invalid path or the pingme.txt file is
+				not present in the root directory), or the file is present in the
+				symbol server exclusion list.
+
+For analysis of this file, run !analyze -v
+SYMSRV:  BYINDEX: 0x2A
+         C:\ProgramData\Dbg\sym
+         watchdog.sys
+         2147479916000
+SYMSRV:  PATH: C:\ProgramData\Dbg\sym\watchdog.sys\2147479916000\watchdog.sys
+SYMSRV:  RESULT: 0x00000000
+DBGHELP: C:\ProgramData\Dbg\sym\watchdog.sys\2147479916000\watchdog.sys - OK
+DBGENG:  C:\ProgramData\Dbg\sym\watchdog.sys\2147479916000\watchdog.sys - Mapped image memory
+SYMSRV:  BYINDEX: 0x2B
+         C:\ProgramData\Dbg\sym
+         watchdog.pdb
+         232BAF6A5C2594F89F9464FDA5F3AD361
+SYMSRV:  PATH: C:\ProgramData\Dbg\sym\watchdog.pdb\232BAF6A5C2594F89F9464FDA5F3AD361\watchdog.pdb
+SYMSRV:  RESULT: 0x00000000
+DBGHELP: watchdog - public symbols  
+        C:\ProgramData\Dbg\sym\watchdog.pdb\232BAF6A5C2594F89F9464FDA5F3AD361\watchdog.pdb
+nt!KeBugCheckEx:
+fffff800`083c0bb0 48894c2408      mov     qword ptr [rsp+8],rcx ss:0018:fffffe08`0f817710=0000000000000113
+1: kd> !analyze -v
+*******************************************************************************
+*                                                                             *
+*                        Bugcheck Analysis                                    *
+*                                                                             *
+*******************************************************************************
+
+VIDEO_DXGKRNL_FATAL_ERROR (113)
+The dxgkrnl has detected that a violation has occurred. This resulted
+in a condition that dxgkrnl can no longer progress.  By crashing, dxgkrnl
+is attempting to get enough information into the minidump such that somebody
+can pinpoint the crash cause. Any other values after parameter 1 must be
+individually examined according to the subtype.
+Arguments:
+Arg1: 0000000000000019, The subtype of the bugcheck:
+Arg2: 0000000000000002
+Arg3: 00000000000010de
+Arg4: 0000000000001f11
+
+Debugging Details:
+------------------
+
+SYMSRV:  BYINDEX: 0x2C
+         C:\ProgramData\Dbg\sym
+         dxgkrnl.sys
+         3A1ABC64373000
+SYMSRV:  PATH: C:\ProgramData\Dbg\sym\dxgkrnl.sys\3A1ABC64373000\dxgkrnl.sys
+SYMSRV:  RESULT: 0x00000000
+DBGHELP: C:\ProgramData\Dbg\sym\dxgkrnl.sys\3A1ABC64373000\dxgkrnl.sys - OK
+DBGENG:  C:\ProgramData\Dbg\sym\dxgkrnl.sys\3A1ABC64373000\dxgkrnl.sys - Mapped image memory
+SYMSRV:  BYINDEX: 0x2D
+         C:\ProgramData\Dbg\sym
+         dxgkrnl.pdb
+         8847E32CB6004EFC4975E3A30AD1F8971
+SYMSRV:  PATH: C:\ProgramData\Dbg\sym\dxgkrnl.pdb\8847E32CB6004EFC4975E3A30AD1F8971\dxgkrnl.pdb
+SYMSRV:  RESULT: 0x00000000
+DBGHELP: dxgkrnl - public symbols  
+        C:\ProgramData\Dbg\sym\dxgkrnl.pdb\8847E32CB6004EFC4975E3A30AD1F8971\dxgkrnl.pdb
+SYMSRV:  BYINDEX: 0x2E
+         C:\ProgramData\Dbg\sym
+         nvlddmkm.sys
+         5D6205FC15b6000
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\nvlddmkm.sys\5D6205FC15b6000\nvlddmkm.sys - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\nvlddmkm.sys\5D6205FC15b6000\nvlddmkm.sy_ - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\nvlddmkm.sys\5D6205FC15b6000\file.ptr - path not found
+SYMSRV:  RESULT: 0x80070003
+SYMSRV:  BYINDEX: 0x2F
+         C:\ProgramData\Dbg\sym*https://msdl.microsoft.com/download/symbols
+         nvlddmkm.sys
+         5D6205FC15b6000
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\nvlddmkm.sys\5D6205FC15b6000\nvlddmkm.sys - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\nvlddmkm.sys\5D6205FC15b6000\nvlddmkm.sy_ - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\nvlddmkm.sys\5D6205FC15b6000\file.ptr - path not found
+SYMSRV:  HTTPGET: /download/symbols/nvlddmkm.sys/5D6205FC15b6000/nvlddmkm.sys
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  HTTPGET: /download/symbols/nvlddmkm.sys/5D6205FC15b6000/nvlddmkm.sy_
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  HTTPGET: /download/symbols/nvlddmkm.sys/5D6205FC15b6000/file.ptr
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  RESULT: 0x80190194
+DBGHELP: C:\WINDOWS\system32\nvlddmkm.sys - file not found
+SYMSRV:  BYINDEX: 0x30
+         https://msdl.microsoft.com/download/symbols
+         nvlddmkm.sys
+         5D6205FC15b6000
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\nvlddmkm.sys\5D6205FC15b6000\nvlddmkm.sys - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\nvlddmkm.sys\5D6205FC15b6000\nvlddmkm.sy_ - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\nvlddmkm.sys\5D6205FC15b6000\file.ptr - path not found
+SYMSRV:  HTTPGET: /download/symbols/nvlddmkm.sys/5D6205FC15b6000/nvlddmkm.sys
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  HTTPGET: /download/symbols/nvlddmkm.sys/5D6205FC15b6000/nvlddmkm.sy_
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  HTTPGET: /download/symbols/nvlddmkm.sys/5D6205FC15b6000/file.ptr
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  RESULT: 0x80190194
+DBGENG:  nvlddmkm.sys - Image mapping disallowed by non-local path.
+DBGENG:  nvlddmkm.sys - Partial symbol image load missing image info
+DBGHELP: No header for nvlddmkm.sys.  Searching for dbg file
+DBGHELP: .\nvlddmkm.dbg - file not found
+DBGHELP: .\sys\nvlddmkm.dbg - path not found
+DBGHELP: .\symbols\sys\nvlddmkm.dbg - path not found
+DBGHELP: nvlddmkm.sys missing debug info.  Searching for pdb anyway
+DBGHELP: Can't use symbol server for nvlddmkm.pdb - no header information available
+DBGHELP: nvlddmkm.pdb - file not found
+*** WARNING: Unable to verify timestamp for nvlddmkm.sys
+DBGHELP: nvlddmkm - no symbols loaded
+***** Kernel symbols are WRONG. Please fix symbols to do analysis.
+
+*************************************************************************
+***                                                                   ***
+***                                                                   ***
+***    Either you specified an unqualified symbol, or your debugger   ***
+***    doesn't have full symbol information.  Unqualified symbol      ***
+***    resolution is turned off by default. Please either specify a   ***
+***    fully qualified symbol module!symbolname, or enable resolution ***
+***    of unqualified symbols by typing ".symopt- 100". Note that     ***
+***    enabling unqualified symbol resolution with network symbol     ***
+***    server shares in the symbol path may cause the debugger to     ***
+***    appear to hang for long periods of time when an incorrect      ***
+***    symbol name is typed or the network symbol server is down.     ***
+***                                                                   ***
+***    For some commands to work properly, your symbol path           ***
+***    must point to .pdb files that have full type information.      ***
+***                                                                   ***
+***    Certain .pdb files (such as the public OS symbols) do not      ***
+***    contain the required information.  Contact the group that      ***
+***    provided you with these symbols if you need this command to    ***
+***    work.                                                          ***
+***                                                                   ***
+***    Type referenced: nt!_KPRCB                                     ***
+***                                                                   ***
+*************************************************************************
+*************************************************************************
+***                                                                   ***
+***                                                                   ***
+***    Either you specified an unqualified symbol, or your debugger   ***
+***    doesn't have full symbol information.  Unqualified symbol      ***
+***    resolution is turned off by default. Please either specify a   ***
+***    fully qualified symbol module!symbolname, or enable resolution ***
+***    of unqualified symbols by typing ".symopt- 100". Note that     ***
+***    enabling unqualified symbol resolution with network symbol     ***
+***    server shares in the symbol path may cause the debugger to     ***
+***    appear to hang for long periods of time when an incorrect      ***
+***    symbol name is typed or the network symbol server is down.     ***
+***                                                                   ***
+***    For some commands to work properly, your symbol path           ***
+***    must point to .pdb files that have full type information.      ***
+***                                                                   ***
+***    Certain .pdb files (such as the public OS symbols) do not      ***
+***    contain the required information.  Contact the group that      ***
+***    provided you with these symbols if you need this command to    ***
+***    work.                                                          ***
+***                                                                   ***
+***    Type referenced: nt!KPRCB                                      ***
+***                                                                   ***
+*************************************************************************
+*************************************************************************
+***                                                                   ***
+***                                                                   ***
+***    Either you specified an unqualified symbol, or your debugger   ***
+***    doesn't have full symbol information.  Unqualified symbol      ***
+***    resolution is turned off by default. Please either specify a   ***
+***    fully qualified symbol module!symbolname, or enable resolution ***
+***    of unqualified symbols by typing ".symopt- 100". Note that     ***
+***    enabling unqualified symbol resolution with network symbol     ***
+***    server shares in the symbol path may cause the debugger to     ***
+***    appear to hang for long periods of time when an incorrect      ***
+***    symbol name is typed or the network symbol server is down.     ***
+***                                                                   ***
+***    For some commands to work properly, your symbol path           ***
+***    must point to .pdb files that have full type information.      ***
+***                                                                   ***
+***    Certain .pdb files (such as the public OS symbols) do not      ***
+***    contain the required information.  Contact the group that      ***
+***    provided you with these symbols if you need this command to    ***
+***    work.                                                          ***
+***                                                                   ***
+***    Type referenced: nt!_KPRCB                                     ***
+***                                                                   ***
+*************************************************************************
+*************************************************************************
+***                                                                   ***
+***                                                                   ***
+***    Either you specified an unqualified symbol, or your debugger   ***
+***    doesn't have full symbol information.  Unqualified symbol      ***
+***    resolution is turned off by default. Please either specify a   ***
+***    fully qualified symbol module!symbolname, or enable resolution ***
+***    of unqualified symbols by typing ".symopt- 100". Note that     ***
+***    enabling unqualified symbol resolution with network symbol     ***
+***    server shares in the symbol path may cause the debugger to     ***
+***    appear to hang for long periods of time when an incorrect      ***
+***    symbol name is typed or the network symbol server is down.     ***
+***                                                                   ***
+***    For some commands to work properly, your symbol path           ***
+***    must point to .pdb files that have full type information.      ***
+***                                                                   ***
+***    Certain .pdb files (such as the public OS symbols) do not      ***
+***    contain the required information.  Contact the group that      ***
+***    provided you with these symbols if you need this command to    ***
+***    work.                                                          ***
+***                                                                   ***
+***    Type referenced: nt!KPRCB                                      ***
+***                                                                   ***
+*************************************************************************
+*************************************************************************
+***                                                                   ***
+***                                                                   ***
+***    Either you specified an unqualified symbol, or your debugger   ***
+***    doesn't have full symbol information.  Unqualified symbol      ***
+***    resolution is turned off by default. Please either specify a   ***
+***    fully qualified symbol module!symbolname, or enable resolution ***
+***    of unqualified symbols by typing ".symopt- 100". Note that     ***
+***    enabling unqualified symbol resolution with network symbol     ***
+***    server shares in the symbol path may cause the debugger to     ***
+***    appear to hang for long periods of time when an incorrect      ***
+***    symbol name is typed or the network symbol server is down.     ***
+***                                                                   ***
+***    For some commands to work properly, your symbol path           ***
+***    must point to .pdb files that have full type information.      ***
+***                                                                   ***
+***    Certain .pdb files (such as the public OS symbols) do not      ***
+***    contain the required information.  Contact the group that      ***
+***    provided you with these symbols if you need this command to    ***
+***    work.                                                          ***
+***                                                                   ***
+***    Type referenced: nt!_KPRCB                                     ***
+***                                                                   ***
+*************************************************************************
+*************************************************************************
+***                                                                   ***
+***                                                                   ***
+***    Either you specified an unqualified symbol, or your debugger   ***
+***    doesn't have full symbol information.  Unqualified symbol      ***
+***    resolution is turned off by default. Please either specify a   ***
+***    fully qualified symbol module!symbolname, or enable resolution ***
+***    of unqualified symbols by typing ".symopt- 100". Note that     ***
+***    enabling unqualified symbol resolution with network symbol     ***
+***    server shares in the symbol path may cause the debugger to     ***
+***    appear to hang for long periods of time when an incorrect      ***
+***    symbol name is typed or the network symbol server is down.     ***
+***                                                                   ***
+***    For some commands to work properly, your symbol path           ***
+***    must point to .pdb files that have full type information.      ***
+***                                                                   ***
+***    Certain .pdb files (such as the public OS symbols) do not      ***
+***    contain the required information.  Contact the group that      ***
+***    provided you with these symbols if you need this command to    ***
+***    work.                                                          ***
+***                                                                   ***
+***    Type referenced: nt!_EPROCESS                                  ***
+***                                                                   ***
+*************************************************************************
+*************************************************************************
+***                                                                   ***
+***                                                                   ***
+***    Either you specified an unqualified symbol, or your debugger   ***
+***    doesn't have full symbol information.  Unqualified symbol      ***
+***    resolution is turned off by default. Please either specify a   ***
+***    fully qualified symbol module!symbolname, or enable resolution ***
+***    of unqualified symbols by typing ".symopt- 100". Note that     ***
+***    enabling unqualified symbol resolution with network symbol     ***
+***    server shares in the symbol path may cause the debugger to     ***
+***    appear to hang for long periods of time when an incorrect      ***
+***    symbol name is typed or the network symbol server is down.     ***
+***                                                                   ***
+***    For some commands to work properly, your symbol path           ***
+***    must point to .pdb files that have full type information.      ***
+***                                                                   ***
+***    Certain .pdb files (such as the public OS symbols) do not      ***
+***    contain the required information.  Contact the group that      ***
+***    provided you with these symbols if you need this command to    ***
+***    work.                                                          ***
+***                                                                   ***
+***    Type referenced: nt!_KPRCB                                     ***
+***                                                                   ***
+*************************************************************************
+*************************************************************************
+***                                                                   ***
+***                                                                   ***
+***    Either you specified an unqualified symbol, or your debugger   ***
+***    doesn't have full symbol information.  Unqualified symbol      ***
+***    resolution is turned off by default. Please either specify a   ***
+***    fully qualified symbol module!symbolname, or enable resolution ***
+***    of unqualified symbols by typing ".symopt- 100". Note that     ***
+***    enabling unqualified symbol resolution with network symbol     ***
+***    server shares in the symbol path may cause the debugger to     ***
+***    appear to hang for long periods of time when an incorrect      ***
+***    symbol name is typed or the network symbol server is down.     ***
+***                                                                   ***
+***    For some commands to work properly, your symbol path           ***
+***    must point to .pdb files that have full type information.      ***
+***                                                                   ***
+***    Certain .pdb files (such as the public OS symbols) do not      ***
+***    contain the required information.  Contact the group that      ***
+***    provided you with these symbols if you need this command to    ***
+***    work.                                                          ***
+***                                                                   ***
+***    Type referenced: nt!_KPRCB                                     ***
+***                                                                   ***
+*************************************************************************
+*************************************************************************
+***                                                                   ***
+***                                                                   ***
+***    Either you specified an unqualified symbol, or your debugger   ***
+***    doesn't have full symbol information.  Unqualified symbol      ***
+***    resolution is turned off by default. Please either specify a   ***
+***    fully qualified symbol module!symbolname, or enable resolution ***
+***    of unqualified symbols by typing ".symopt- 100". Note that     ***
+***    enabling unqualified symbol resolution with network symbol     ***
+***    server shares in the symbol path may cause the debugger to     ***
+***    appear to hang for long periods of time when an incorrect      ***
+***    symbol name is typed or the network symbol server is down.     ***
+***                                                                   ***
+***    For some commands to work properly, your symbol path           ***
+***    must point to .pdb files that have full type information.      ***
+***                                                                   ***
+***    Certain .pdb files (such as the public OS symbols) do not      ***
+***    contain the required information.  Contact the group that      ***
+***    provided you with these symbols if you need this command to    ***
+***    work.                                                          ***
+***                                                                   ***
+***    Type referenced: nt!_KPRCB                                     ***
+***                                                                   ***
+*************************************************************************
+*************************************************************************
+***                                                                   ***
+***                                                                   ***
+***    Either you specified an unqualified symbol, or your debugger   ***
+***    doesn't have full symbol information.  Unqualified symbol      ***
+***    resolution is turned off by default. Please either specify a   ***
+***    fully qualified symbol module!symbolname, or enable resolution ***
+***    of unqualified symbols by typing ".symopt- 100". Note that     ***
+***    enabling unqualified symbol resolution with network symbol     ***
+***    server shares in the symbol path may cause the debugger to     ***
+***    appear to hang for long periods of time when an incorrect      ***
+***    symbol name is typed or the network symbol server is down.     ***
+***                                                                   ***
+***    For some commands to work properly, your symbol path           ***
+***    must point to .pdb files that have full type information.      ***
+***                                                                   ***
+***    Certain .pdb files (such as the public OS symbols) do not      ***
+***    contain the required information.  Contact the group that      ***
+***    provided you with these symbols if you need this command to    ***
+***    work.                                                          ***
+***                                                                   ***
+***    Type referenced: nt!_KPRCB                                     ***
+***                                                                   ***
+*************************************************************************
+*************************************************************************
+***                                                                   ***
+***                                                                   ***
+***    Either you specified an unqualified symbol, or your debugger   ***
+***    doesn't have full symbol information.  Unqualified symbol      ***
+***    resolution is turned off by default. Please either specify a   ***
+***    fully qualified symbol module!symbolname, or enable resolution ***
+***    of unqualified symbols by typing ".symopt- 100". Note that     ***
+***    enabling unqualified symbol resolution with network symbol     ***
+***    server shares in the symbol path may cause the debugger to     ***
+***    appear to hang for long periods of time when an incorrect      ***
+***    symbol name is typed or the network symbol server is down.     ***
+***                                                                   ***
+***    For some commands to work properly, your symbol path           ***
+***    must point to .pdb files that have full type information.      ***
+***                                                                   ***
+***    Certain .pdb files (such as the public OS symbols) do not      ***
+***    contain the required information.  Contact the group that      ***
+***    provided you with these symbols if you need this command to    ***
+***    work.                                                          ***
+***                                                                   ***
+***    Type referenced: nt!_KTHREAD                                   ***
+***                                                                   ***
+*************************************************************************
+*************************************************************************
+***                                                                   ***
+***                                                                   ***
+***    Either you specified an unqualified symbol, or your debugger   ***
+***    doesn't have full symbol information.  Unqualified symbol      ***
+***    resolution is turned off by default. Please either specify a   ***
+***    fully qualified symbol module!symbolname, or enable resolution ***
+***    of unqualified symbols by typing ".symopt- 100". Note that     ***
+***    enabling unqualified symbol resolution with network symbol     ***
+***    server shares in the symbol path may cause the debugger to     ***
+***    appear to hang for long periods of time when an incorrect      ***
+***    symbol name is typed or the network symbol server is down.     ***
+***                                                                   ***
+***    For some commands to work properly, your symbol path           ***
+***    must point to .pdb files that have full type information.      ***
+***                                                                   ***
+***    Certain .pdb files (such as the public OS symbols) do not      ***
+***    contain the required information.  Contact the group that      ***
+***    provided you with these symbols if you need this command to    ***
+***    work.                                                          ***
+***                                                                   ***
+***    Type referenced: nt!_MI_SYSTEM_INFORMATION                     ***
+***                                                                   ***
+*************************************************************************
+*************************************************************************
+***                                                                   ***
+***                                                                   ***
+***    Either you specified an unqualified symbol, or your debugger   ***
+***    doesn't have full symbol information.  Unqualified symbol      ***
+***    resolution is turned off by default. Please either specify a   ***
+***    fully qualified symbol module!symbolname, or enable resolution ***
+***    of unqualified symbols by typing ".symopt- 100". Note that     ***
+***    enabling unqualified symbol resolution with network symbol     ***
+***    server shares in the symbol path may cause the debugger to     ***
+***    appear to hang for long periods of time when an incorrect      ***
+***    symbol name is typed or the network symbol server is down.     ***
+***                                                                   ***
+***    For some commands to work properly, your symbol path           ***
+***    must point to .pdb files that have full type information.      ***
+***                                                                   ***
+***    Certain .pdb files (such as the public OS symbols) do not      ***
+***    contain the required information.  Contact the group that      ***
+***    provided you with these symbols if you need this command to    ***
+***    work.                                                          ***
+***                                                                   ***
+***    Type referenced: nt!_MI_SYSTEM_INFORMATION                     ***
+***                                                                   ***
+*************************************************************************
+*************************************************************************
+***                                                                   ***
+***                                                                   ***
+***    Either you specified an unqualified symbol, or your debugger   ***
+***    doesn't have full symbol information.  Unqualified symbol      ***
+***    resolution is turned off by default. Please either specify a   ***
+***    fully qualified symbol module!symbolname, or enable resolution ***
+***    of unqualified symbols by typing ".symopt- 100". Note that     ***
+***    enabling unqualified symbol resolution with network symbol     ***
+***    server shares in the symbol path may cause the debugger to     ***
+***    appear to hang for long periods of time when an incorrect      ***
+***    symbol name is typed or the network symbol server is down.     ***
+***                                                                   ***
+***    For some commands to work properly, your symbol path           ***
+***    must point to .pdb files that have full type information.      ***
+***                                                                   ***
+***    Certain .pdb files (such as the public OS symbols) do not      ***
+***    contain the required information.  Contact the group that      ***
+***    provided you with these symbols if you need this command to    ***
+***    work.                                                          ***
+***                                                                   ***
+***    Type referenced: nt!_MMPTE                                     ***
+***                                                                   ***
+*************************************************************************
+*************************************************************************
+***                                                                   ***
+***                                                                   ***
+***    Either you specified an unqualified symbol, or your debugger   ***
+***    doesn't have full symbol information.  Unqualified symbol      ***
+***    resolution is turned off by default. Please either specify a   ***
+***    fully qualified symbol module!symbolname, or enable resolution ***
+***    of unqualified symbols by typing ".symopt- 100". Note that     ***
+***    enabling unqualified symbol resolution with network symbol     ***
+***    server shares in the symbol path may cause the debugger to     ***
+***    appear to hang for long periods of time when an incorrect      ***
+***    symbol name is typed or the network symbol server is down.     ***
+***                                                                   ***
+***    For some commands to work properly, your symbol path           ***
+***    must point to .pdb files that have full type information.      ***
+***                                                                   ***
+***    Certain .pdb files (such as the public OS symbols) do not      ***
+***    contain the required information.  Contact the group that      ***
+***    provided you with these symbols if you need this command to    ***
+***    work.                                                          ***
+***                                                                   ***
+***    Type referenced: nt!_MMPTE                                     ***
+***                                                                   ***
+*************************************************************************
+*************************************************************************
+***                                                                   ***
+***                                                                   ***
+***    Either you specified an unqualified symbol, or your debugger   ***
+***    doesn't have full symbol information.  Unqualified symbol      ***
+***    resolution is turned off by default. Please either specify a   ***
+***    fully qualified symbol module!symbolname, or enable resolution ***
+***    of unqualified symbols by typing ".symopt- 100". Note that     ***
+***    enabling unqualified symbol resolution with network symbol     ***
+***    server shares in the symbol path may cause the debugger to     ***
+***    appear to hang for long periods of time when an incorrect      ***
+***    symbol name is typed or the network symbol server is down.     ***
+***                                                                   ***
+***    For some commands to work properly, your symbol path           ***
+***    must point to .pdb files that have full type information.      ***
+***                                                                   ***
+***    Certain .pdb files (such as the public OS symbols) do not      ***
+***    contain the required information.  Contact the group that      ***
+***    provided you with these symbols if you need this command to    ***
+***    work.                                                          ***
+***                                                                   ***
+***    Type referenced: nt!_MMPTE                                     ***
+***                                                                   ***
+*************************************************************************
+*************************************************************************
+***                                                                   ***
+***                                                                   ***
+***    Either you specified an unqualified symbol, or your debugger   ***
+***    doesn't have full symbol information.  Unqualified symbol      ***
+***    resolution is turned off by default. Please either specify a   ***
+***    fully qualified symbol module!symbolname, or enable resolution ***
+***    of unqualified symbols by typing ".symopt- 100". Note that     ***
+***    enabling unqualified symbol resolution with network symbol     ***
+***    server shares in the symbol path may cause the debugger to     ***
+***    appear to hang for long periods of time when an incorrect      ***
+***    symbol name is typed or the network symbol server is down.     ***
+***                                                                   ***
+***    For some commands to work properly, your symbol path           ***
+***    must point to .pdb files that have full type information.      ***
+***                                                                   ***
+***    Certain .pdb files (such as the public OS symbols) do not      ***
+***    contain the required information.  Contact the group that      ***
+***    provided you with these symbols if you need this command to    ***
+***    work.                                                          ***
+***                                                                   ***
+***    Type referenced: nt!_KPRCB                                     ***
+***                                                                   ***
+*************************************************************************
+*************************************************************************
+***                                                                   ***
+***                                                                   ***
+***    Either you specified an unqualified symbol, or your debugger   ***
+***    doesn't have full symbol information.  Unqualified symbol      ***
+***    resolution is turned off by default. Please either specify a   ***
+***    fully qualified symbol module!symbolname, or enable resolution ***
+***    of unqualified symbols by typing ".symopt- 100". Note that     ***
+***    enabling unqualified symbol resolution with network symbol     ***
+***    server shares in the symbol path may cause the debugger to     ***
+***    appear to hang for long periods of time when an incorrect      ***
+***    symbol name is typed or the network symbol server is down.     ***
+***                                                                   ***
+***    For some commands to work properly, your symbol path           ***
+***    must point to .pdb files that have full type information.      ***
+***                                                                   ***
+***    Certain .pdb files (such as the public OS symbols) do not      ***
+***    contain the required information.  Contact the group that      ***
+***    provided you with these symbols if you need this command to    ***
+***    work.                                                          ***
+***                                                                   ***
+***    Type referenced: nt!_KPRCB                                     ***
+***                                                                   ***
+*************************************************************************
+
+KEY_VALUES_STRING: 1
+
+    Key  : Analysis.CPU.Sec
+    Value: 0
+
+    Key  : Analysis.DebugAnalysisProvider.CPP
+    Value: Create: 8007007e on WINTER
+
+    Key  : Analysis.DebugData
+    Value: CreateObject
+
+    Key  : Analysis.DebugModel
+    Value: CreateObject
+
+    Key  : Analysis.Elapsed.Sec
+    Value: 1
+
+    Key  : Analysis.Memory.CommitPeak.Mb
+    Value: 65
+
+    Key  : Analysis.System
+    Value: CreateObject
+
+
+ADDITIONAL_DEBUG_TEXT:  
+You can run '.symfix; .reload' to try to fix the symbol path and load symbols.
+
+WRONG_SYMBOLS_TIMESTAMP: b39ad386
+
+WRONG_SYMBOLS_SIZE: ab6000
+
+FAULTING_MODULE: fffff80008200000 nt
+
+DUMP_FILE_ATTRIBUTES: 0x8
+  Kernel Generated Triage Dump
+
+BUGCHECK_CODE:  113
+
+BUGCHECK_P1: 19
+
+BUGCHECK_P2: 2
+
+BUGCHECK_P3: 10de
+
+BUGCHECK_P4: 1f11
+
+BLACKBOXBSD: 1 (!blackboxbsd)
+
+
+BLACKBOXNTFS: 1 (!blackboxntfs)
+
+
+BLACKBOXPNP: 1 (!blackboxpnp)
+
+
+BLACKBOXWINLOGON: 1
+
+CUSTOMER_CRASH_COUNT:  1
+
+STACK_TEXT:  
+fffffe08`0f817708 fffff800`20a541a0 : 00000000`00000113 00000000`00000019 00000000`00000002 00000000`000010de : nt!KeBugCheckEx
+fffffe08`0f817710 fffff800`2086ba60 : ffff8887`3840c180 ffffffff`c000000e ffff8887`3840c180 ffff8887`3840c180 : watchdog!WdLogEvent5_WdCriticalError+0xe0
+fffffe08`0f817750 fffff800`2081e820 : fffffe08`0f817700 00000000`00000000 ffff8887`3ade7a10 ffff8887`3ade7820 : dxgkrnl!DpiFdoHandleDevicePower+0x4cbf0
+fffffe08`0f8177f0 fffff800`2081f8f1 : ffff8887`3ade7820 ffff8887`3840c180 ffff8887`3840c030 00000000`00000001 : dxgkrnl!DpiFdoDispatchPower+0x20
+fffffe08`0f817820 fffff800`2332a243 : 00000000`00000001 ffff8887`3bd5a000 00000000`00000001 ffff8887`3ade7820 : dxgkrnl!DpiDispatchPower+0xe1
+fffffe08`0f817940 00000000`00000001 : ffff8887`3bd5a000 00000000`00000001 ffff8887`3ade7820 fffffe08`0f817a48 : nvlddmkm+0xda243
+fffffe08`0f817948 ffff8887`3bd5a000 : 00000000`00000001 ffff8887`3ade7820 fffffe08`0f817a48 fffffe08`00000004 : 0x1
+fffffe08`0f817950 00000000`00000001 : ffff8887`3ade7820 fffffe08`0f817a48 fffffe08`00000004 00000000`00000000 : 0xffff8887`3bd5a000
+fffffe08`0f817958 ffff8887`3ade7820 : fffffe08`0f817a48 fffffe08`00000004 00000000`00000000 fffff800`0823ad01 : 0x1
+fffffe08`0f817960 fffffe08`0f817a48 : fffffe08`00000004 00000000`00000000 fffff800`0823ad01 ffff8887`38566000 : 0xffff8887`3ade7820
+fffffe08`0f817968 fffffe08`00000004 : 00000000`00000000 fffff800`0823ad01 ffff8887`38566000 fffff800`00000000 : 0xfffffe08`0f817a48
+fffffe08`0f817970 00000000`00000000 : fffff800`0823ad01 ffff8887`38566000 fffff800`00000000 ffff8887`3bac8800 : 0xfffffe08`00000004
+
+
+SYMBOL_NAME:  nt_wrong_symbols!B39AD386AB6000
+
+IMAGE_VERSION:  10.0.18362.295
+
+STACK_COMMAND:  .thread ; .cxr ; kb
+
+EXCEPTION_CODE_STR:  B39AD386
+
+EXCEPTION_STR:  WRONG_SYMBOLS
+
+PROCESS_NAME:  ntoskrnl.wrong.symbols.exe
+
+IMAGE_NAME:  ntoskrnl.wrong.symbols.exe
+
+MODULE_NAME: nt_wrong_symbols
+
+FAILURE_BUCKET_ID:  WRONG_SYMBOLS_X64_TIMESTAMP_650626-185918_B39AD386_nt_wrong_symbols!B39AD386AB6000
+
+OSPLATFORM_TYPE:  x64
+
+OSNAME:  Windows 10
+
+FAILURE_ID_HASH:  {9e0f8157-3976-f46e-5d4f-8618da4434d3}
+
+Followup:     MachineOwner
+---------
+
+1: kd> nt!_KPRCB
+       ^ Syntax error in 'nt!_KPRCB'
+1: kd> .symfix; .reload
+DBGHELP: Symbol Search Path: cache*;SRV*https://msdl.microsoft.com/download/symbols
+SYMSRV:  BYINDEX: 0x31
+         C:\ProgramData\Dbg\sym
+         ntoskrnl.exe
+         B39AD386ab6000
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\ntoskrnl.exe\B39AD386ab6000\ntoskrnl.exe - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\ntoskrnl.exe\B39AD386ab6000\ntoskrnl.ex_ - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\ntoskrnl.exe\B39AD386ab6000\file.ptr - path not found
+SYMSRV:  RESULT: 0x80070003
+SYMSRV:  BYINDEX: 0x32
+         C:\ProgramData\Dbg\sym*https://msdl.microsoft.com/download/symbols
+         ntoskrnl.exe
+         B39AD386ab6000
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\ntoskrnl.exe\B39AD386ab6000\ntoskrnl.exe - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\ntoskrnl.exe\B39AD386ab6000\ntoskrnl.ex_ - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\ntoskrnl.exe\B39AD386ab6000\file.ptr - path not found
+SYMSRV:  HTTPGET: /download/symbols/ntoskrnl.exe/B39AD386ab6000/ntoskrnl.exe
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  HTTPGET: /download/symbols/ntoskrnl.exe/B39AD386ab6000/ntoskrnl.ex_
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  HTTPGET: /download/symbols/ntoskrnl.exe/B39AD386ab6000/file.ptr
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  RESULT: 0x80190194
+SYMSRV:  BYINDEX: 0x33
+         C:\ProgramData\Dbg\sym
+         ntkrnlup.exe
+         B39AD386ab6000
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\ntkrnlup.exe\B39AD386ab6000\ntkrnlup.exe - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\ntkrnlup.exe\B39AD386ab6000\ntkrnlup.ex_ - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\ntkrnlup.exe\B39AD386ab6000\file.ptr - path not found
+SYMSRV:  RESULT: 0x80070003
+SYMSRV:  BYINDEX: 0x34
+         C:\ProgramData\Dbg\sym*https://msdl.microsoft.com/download/symbols
+         ntkrnlup.exe
+         B39AD386ab6000
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\ntkrnlup.exe\B39AD386ab6000\ntkrnlup.exe - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\ntkrnlup.exe\B39AD386ab6000\ntkrnlup.ex_ - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\ntkrnlup.exe\B39AD386ab6000\file.ptr - path not found
+SYMSRV:  HTTPGET: /download/symbols/ntkrnlup.exe/B39AD386ab6000/ntkrnlup.exe
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  HTTPGET: /download/symbols/ntkrnlup.exe/B39AD386ab6000/ntkrnlup.ex_
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  HTTPGET: /download/symbols/ntkrnlup.exe/B39AD386ab6000/file.ptr
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  RESULT: 0x80190194
+SYMSRV:  BYINDEX: 0x35
+         C:\ProgramData\Dbg\sym
+         ntkrnlpa.exe
+         B39AD386ab6000
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\ntkrnlpa.exe\B39AD386ab6000\ntkrnlpa.exe - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\ntkrnlpa.exe\B39AD386ab6000\ntkrnlpa.ex_ - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\ntkrnlpa.exe\B39AD386ab6000\file.ptr - path not found
+SYMSRV:  RESULT: 0x80070003
+SYMSRV:  BYINDEX: 0x36
+         C:\ProgramData\Dbg\sym*https://msdl.microsoft.com/download/symbols
+         ntkrnlpa.exe
+         B39AD386ab6000
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\ntkrnlpa.exe\B39AD386ab6000\ntkrnlpa.exe - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\ntkrnlpa.exe\B39AD386ab6000\ntkrnlpa.ex_ - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\ntkrnlpa.exe\B39AD386ab6000\file.ptr - path not found
+SYMSRV:  HTTPGET: /download/symbols/ntkrnlpa.exe/B39AD386ab6000/ntkrnlpa.exe
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  HTTPGET: /download/symbols/ntkrnlpa.exe/B39AD386ab6000/ntkrnlpa.ex_
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  HTTPGET: /download/symbols/ntkrnlpa.exe/B39AD386ab6000/file.ptr
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  RESULT: 0x80190194
+SYMSRV:  BYINDEX: 0x37
+         C:\ProgramData\Dbg\sym
+         ntkrnlmp.exe
+         B39AD386ab6000
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\ntkrnlmp.exe\B39AD386ab6000\ntkrnlmp.exe - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\ntkrnlmp.exe\B39AD386ab6000\ntkrnlmp.ex_ - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\ntkrnlmp.exe\B39AD386ab6000\file.ptr - path not found
+SYMSRV:  RESULT: 0x80070003
+SYMSRV:  BYINDEX: 0x38
+         C:\ProgramData\Dbg\sym*https://msdl.microsoft.com/download/symbols
+         ntkrnlmp.exe
+         B39AD386ab6000
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\ntkrnlmp.exe\B39AD386ab6000\ntkrnlmp.exe - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\ntkrnlmp.exe\B39AD386ab6000\ntkrnlmp.ex_ - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\ntkrnlmp.exe\B39AD386ab6000\file.ptr - path not found
+SYMSRV:  HTTPGET: /download/symbols/ntkrnlmp.exe/B39AD386ab6000/ntkrnlmp.exe
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  HTTPGET: /download/symbols/ntkrnlmp.exe/B39AD386ab6000/ntkrnlmp.ex_
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  HTTPGET: /download/symbols/ntkrnlmp.exe/B39AD386ab6000/file.ptr
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  RESULT: 0x80190194
+SYMSRV:  BYINDEX: 0x39
+         C:\ProgramData\Dbg\sym
+         ntkrpamp.exe
+         B39AD386ab6000
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\ntkrpamp.exe\B39AD386ab6000\ntkrpamp.exe - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\ntkrpamp.exe\B39AD386ab6000\ntkrpamp.ex_ - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\ntkrpamp.exe\B39AD386ab6000\file.ptr - path not found
+SYMSRV:  RESULT: 0x80070003
+SYMSRV:  BYINDEX: 0x3A
+         C:\ProgramData\Dbg\sym*https://msdl.microsoft.com/download/symbols
+         ntkrpamp.exe
+         B39AD386ab6000
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\ntkrpamp.exe\B39AD386ab6000\ntkrpamp.exe - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\ntkrpamp.exe\B39AD386ab6000\ntkrpamp.ex_ - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\ntkrpamp.exe\B39AD386ab6000\file.ptr - path not found
+SYMSRV:  HTTPGET: /download/symbols/ntkrpamp.exe/B39AD386ab6000/ntkrpamp.exe
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  HTTPGET: /download/symbols/ntkrpamp.exe/B39AD386ab6000/ntkrpamp.ex_
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  HTTPGET: /download/symbols/ntkrpamp.exe/B39AD386ab6000/file.ptr
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  RESULT: 0x80190194
+SYMSRV:  BYINDEX: 0x3B
+         C:\ProgramData\Dbg\sym
+         xboxkrnlc.exe
+         B39AD386ab6000
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\xboxkrnlc.exe\B39AD386ab6000\xboxkrnlc.exe - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\xboxkrnlc.exe\B39AD386ab6000\xboxkrnlc.ex_ - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\xboxkrnlc.exe\B39AD386ab6000\file.ptr - path not found
+SYMSRV:  RESULT: 0x80070003
+SYMSRV:  BYINDEX: 0x3C
+         C:\ProgramData\Dbg\sym*https://msdl.microsoft.com/download/symbols
+         xboxkrnlc.exe
+         B39AD386ab6000
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\xboxkrnlc.exe\B39AD386ab6000\xboxkrnlc.exe - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\xboxkrnlc.exe\B39AD386ab6000\xboxkrnlc.ex_ - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\xboxkrnlc.exe\B39AD386ab6000\file.ptr - path not found
+SYMSRV:  HTTPGET: /download/symbols/xboxkrnlc.exe/B39AD386ab6000/xboxkrnlc.exe
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  HTTPGET: /download/symbols/xboxkrnlc.exe/B39AD386ab6000/xboxkrnlc.ex_
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  HTTPGET: /download/symbols/xboxkrnlc.exe/B39AD386ab6000/file.ptr
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  RESULT: 0x80190194
+DBGHELP: C:\WINDOWS\system32\ntoskrnl.exe - OK
+DBGENG:  C:\WINDOWS\system32\ntoskrnl.exe - Mapped image memory
+SYMSRV:  BYINDEX: 0x3D
+         C:\ProgramData\Dbg\sym
+         ntkrnlmp.pdb
+         764E7B5EF4C46505F6DB74C5C8AC5CB21
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\ntkrnlmp.pdb\764E7B5EF4C46505F6DB74C5C8AC5CB21\ntkrnlmp.pdb - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\ntkrnlmp.pdb\764E7B5EF4C46505F6DB74C5C8AC5CB21\ntkrnlmp.pd_ - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\ntkrnlmp.pdb\764E7B5EF4C46505F6DB74C5C8AC5CB21\file.ptr - path not found
+SYMSRV:  RESULT: 0x80070003
+SYMSRV:  BYINDEX: 0x3E
+         C:\ProgramData\Dbg\sym*https://msdl.microsoft.com/download/symbols
+         ntkrnlmp.pdb
+         764E7B5EF4C46505F6DB74C5C8AC5CB21
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\ntkrnlmp.pdb\764E7B5EF4C46505F6DB74C5C8AC5CB21\ntkrnlmp.pdb - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\ntkrnlmp.pdb\764E7B5EF4C46505F6DB74C5C8AC5CB21\ntkrnlmp.pd_ - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\ntkrnlmp.pdb\764E7B5EF4C46505F6DB74C5C8AC5CB21\file.ptr - path not found
+SYMSRV:  HTTPGET: /download/symbols/ntkrnlmp.pdb/764E7B5EF4C46505F6DB74C5C8AC5CB21/ntkrnlmp.pdb
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  HTTPGET: /download/symbols/ntkrnlmp.pdb/764E7B5EF4C46505F6DB74C5C8AC5CB21/ntkrnlmp.pd_
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  HTTPGET: /download/symbols/ntkrnlmp.pdb/764E7B5EF4C46505F6DB74C5C8AC5CB21/file.ptr
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  RESULT: 0x80190194
+DBGHELP: ntkrnlmp.pdb - file not found
+DBGHELP: nt - export symbols
+Loading Kernel Symbols
+.SYMSRV:  BYINDEX: 0x3F
+         C:\ProgramData\Dbg\sym
+         halaacpi.dll
+         4E924194a3000
+SYMSRV:  PATH: C:\ProgramData\Dbg\sym\halaacpi.dll\4E924194a3000\halaacpi.dll
+SYMSRV:  RESULT: 0x00000000
+DBGHELP: C:\ProgramData\Dbg\sym\halaacpi.dll\4E924194a3000\halaacpi.dll - OK
+DBGENG:  C:\ProgramData\Dbg\sym\halaacpi.dll\4E924194a3000\halaacpi.dll - Mapped image memory
+.SYMSRV:  BYINDEX: 0x40
+         C:\ProgramData\Dbg\sym
+         kdcom.dll
+         5A75D524b000
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\kdcom.dll\5A75D524b000\kdcom.dll - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\kdcom.dll\5A75D524b000\kdcom.dl_ - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\kdcom.dll\5A75D524b000\file.ptr - path not found
+SYMSRV:  RESULT: 0x80070003
+SYMSRV:  BYINDEX: 0x41
+         C:\ProgramData\Dbg\sym*https://msdl.microsoft.com/download/symbols
+         kdcom.dll
+         5A75D524b000
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\kdcom.dll\5A75D524b000\kdcom.dll - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\kdcom.dll\5A75D524b000\kdcom.dl_ - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\kdcom.dll\5A75D524b000\file.ptr - path not found
+SYMSRV:  HTTPGET: /download/symbols/kdcom.dll/5A75D524b000/kdcom.dll
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  HTTPGET: /download/symbols/kdcom.dll/5A75D524b000/kdcom.dl_
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  HTTPGET: /download/symbols/kdcom.dll/5A75D524b000/file.ptr
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  RESULT: 0x80190194
+SYMSRV:  BYINDEX: 0x42
+         C:\ProgramData\Dbg\sym
+         kdusb.dll
+         5A75D524b000
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\kdusb.dll\5A75D524b000\kdusb.dll - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\kdusb.dll\5A75D524b000\kdusb.dl_ - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\kdusb.dll\5A75D524b000\file.ptr - path not found
+SYMSRV:  RESULT: 0x80070003
+SYMSRV:  BYINDEX: 0x43
+         C:\ProgramData\Dbg\sym*https://msdl.microsoft.com/download/symbols
+         kdusb.dll
+         5A75D524b000
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\kdusb.dll\5A75D524b000\kdusb.dll - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\kdusb.dll\5A75D524b000\kdusb.dl_ - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\kdusb.dll\5A75D524b000\file.ptr - path not found
+SYMSRV:  HTTPGET: /download/symbols/kdusb.dll/5A75D524b000/kdusb.dll
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  HTTPGET: /download/symbols/kdusb.dll/5A75D524b000/kdusb.dl_
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  HTTPGET: /download/symbols/kdusb.dll/5A75D524b000/file.ptr
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  RESULT: 0x80190194
+SYMSRV:  BYINDEX: 0x44
+         C:\ProgramData\Dbg\sym
+         kd1394.dll
+         5A75D524b000
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\kd1394.dll\5A75D524b000\kd1394.dll - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\kd1394.dll\5A75D524b000\kd1394.dl_ - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\kd1394.dll\5A75D524b000\file.ptr - path not found
+SYMSRV:  RESULT: 0x80070003
+SYMSRV:  BYINDEX: 0x45
+         C:\ProgramData\Dbg\sym*https://msdl.microsoft.com/download/symbols
+         kd1394.dll
+         5A75D524b000
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\kd1394.dll\5A75D524b000\kd1394.dll - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\kd1394.dll\5A75D524b000\kd1394.dl_ - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\kd1394.dll\5A75D524b000\file.ptr - path not found
+SYMSRV:  HTTPGET: /download/symbols/kd1394.dll/5A75D524b000/kd1394.dll
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  HTTPGET: /download/symbols/kd1394.dll/5A75D524b000/kd1394.dl_
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  HTTPGET: /download/symbols/kd1394.dll/5A75D524b000/file.ptr
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  RESULT: 0x80190194
+SYMSRV:  BYINDEX: 0x46
+         C:\ProgramData\Dbg\sym
+         kdnet.dll
+         5A75D524b000
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\kdnet.dll\5A75D524b000\kdnet.dll - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\kdnet.dll\5A75D524b000\kdnet.dl_ - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\kdnet.dll\5A75D524b000\file.ptr - path not found
+SYMSRV:  RESULT: 0x80070003
+SYMSRV:  BYINDEX: 0x47
+         C:\ProgramData\Dbg\sym*https://msdl.microsoft.com/download/symbols
+         kdnet.dll
+         5A75D524b000
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\kdnet.dll\5A75D524b000\kdnet.dll - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\kdnet.dll\5A75D524b000\kdnet.dl_ - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\kdnet.dll\5A75D524b000\file.ptr - path not found
+SYMSRV:  HTTPGET: /download/symbols/kdnet.dll/5A75D524b000/kdnet.dll
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  HTTPGET: /download/symbols/kdnet.dll/5A75D524b000/kdnet.dl_
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  HTTPGET: /download/symbols/kdnet.dll/5A75D524b000/file.ptr
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  RESULT: 0x80190194
+DBGHELP: C:\WINDOWS\system32\kdcom.dll - mismatched timestamp
+DBGHELP: C:\WINDOWS\system32\kdusb.dll - mismatched timestamp
+DBGHELP: C:\WINDOWS\system32\kd1394.dll - file not found
+DBGHELP: C:\WINDOWS\system32\kdnet.dll - mismatched timestamp
+SYMSRV:  BYINDEX: 0x48
+         https://msdl.microsoft.com/download/symbols
+         kdcom.dll
+         5A75D524b000
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\kdcom.dll\5A75D524b000\kdcom.dll - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\kdcom.dll\5A75D524b000\kdcom.dl_ - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\kdcom.dll\5A75D524b000\file.ptr - path not found
+SYMSRV:  HTTPGET: /download/symbols/kdcom.dll/5A75D524b000/kdcom.dll
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  HTTPGET: /download/symbols/kdcom.dll/5A75D524b000/kdcom.dl_
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  HTTPGET: /download/symbols/kdcom.dll/5A75D524b000/file.ptr
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  RESULT: 0x80190194
+SYMSRV:  BYINDEX: 0x49
+         https://msdl.microsoft.com/download/symbols
+         kdusb.dll
+         5A75D524b000
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\kdusb.dll\5A75D524b000\kdusb.dll - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\kdusb.dll\5A75D524b000\kdusb.dl_ - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\kdusb.dll\5A75D524b000\file.ptr - path not found
+SYMSRV:  HTTPGET: /download/symbols/kdusb.dll/5A75D524b000/kdusb.dll
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  HTTPGET: /download/symbols/kdusb.dll/5A75D524b000/kdusb.dl_
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  HTTPGET: /download/symbols/kdusb.dll/5A75D524b000/file.ptr
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  RESULT: 0x80190194
+SYMSRV:  BYINDEX: 0x4A
+         https://msdl.microsoft.com/download/symbols
+         kd1394.dll
+         5A75D524b000
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\kd1394.dll\5A75D524b000\kd1394.dll - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\kd1394.dll\5A75D524b000\kd1394.dl_ - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\kd1394.dll\5A75D524b000\file.ptr - path not found
+SYMSRV:  HTTPGET: /download/symbols/kd1394.dll/5A75D524b000/kd1394.dll
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  HTTPGET: /download/symbols/kd1394.dll/5A75D524b000/kd1394.dl_
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  HTTPGET: /download/symbols/kd1394.dll/5A75D524b000/file.ptr
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  RESULT: 0x80190194
+SYMSRV:  BYINDEX: 0x4B
+         https://msdl.microsoft.com/download/symbols
+         kdnet.dll
+         5A75D524b000
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\kdnet.dll\5A75D524b000\kdnet.dll - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\kdnet.dll\5A75D524b000\kdnet.dl_ - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\kdnet.dll\5A75D524b000\file.ptr - path not found
+SYMSRV:  HTTPGET: /download/symbols/kdnet.dll/5A75D524b000/kdnet.dll
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  HTTPGET: /download/symbols/kdnet.dll/5A75D524b000/kdnet.dl_
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  HTTPGET: /download/symbols/kdnet.dll/5A75D524b000/file.ptr
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  RESULT: 0x80190194
+DBGHELP: C:\WINDOWS\system32\kdcom.dll - mismatched timestamp
+DBGHELP: C:\WINDOWS\system32\kdusb.dll - mismatched timestamp
+DBGHELP: C:\WINDOWS\system32\kd1394.dll - file not found
+DBGHELP: C:\WINDOWS\system32\kdnet.dll - mismatched timestamp
+SYMSRV:  BYINDEX: 0x4C
+         C:\ProgramData\Dbg\sym
+         kdcom.dll
+         5A75D524b000
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\kdcom.dll\5A75D524b000\kdcom.dll - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\kdcom.dll\5A75D524b000\kdcom.dl_ - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\kdcom.dll\5A75D524b000\file.ptr - path not found
+SYMSRV:  RESULT: 0x80070003
+SYMSRV:  BYINDEX: 0x4D
+         C:\ProgramData\Dbg\sym*https://msdl.microsoft.com/download/symbols
+         kdcom.dll
+         5A75D524b000
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\kdcom.dll\5A75D524b000\kdcom.dll - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\kdcom.dll\5A75D524b000\kdcom.dl_ - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\kdcom.dll\5A75D524b000\file.ptr - path not found
+SYMSRV:  HTTPGET: /download/symbols/kdcom.dll/5A75D524b000/kdcom.dll
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  HTTPGET: /download/symbols/kdcom.dll/5A75D524b000/kdcom.dl_
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  HTTPGET: /download/symbols/kdcom.dll/5A75D524b000/file.ptr
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  RESULT: 0x80190194
+SYMSRV:  BYINDEX: 0x4E
+         C:\ProgramData\Dbg\sym
+         kdusb.dll
+         5A75D524b000
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\kdusb.dll\5A75D524b000\kdusb.dll - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\kdusb.dll\5A75D524b000\kdusb.dl_ - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\kdusb.dll\5A75D524b000\file.ptr - path not found
+SYMSRV:  RESULT: 0x80070003
+SYMSRV:  BYINDEX: 0x4F
+         C:\ProgramData\Dbg\sym*https://msdl.microsoft.com/download/symbols
+         kdusb.dll
+         5A75D524b000
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\kdusb.dll\5A75D524b000\kdusb.dll - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\kdusb.dll\5A75D524b000\kdusb.dl_ - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\kdusb.dll\5A75D524b000\file.ptr - path not found
+SYMSRV:  HTTPGET: /download/symbols/kdusb.dll/5A75D524b000/kdusb.dll
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  HTTPGET: /download/symbols/kdusb.dll/5A75D524b000/kdusb.dl_
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  HTTPGET: /download/symbols/kdusb.dll/5A75D524b000/file.ptr
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  RESULT: 0x80190194
+SYMSRV:  BYINDEX: 0x50
+         C:\ProgramData\Dbg\sym
+         kd1394.dll
+         5A75D524b000
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\kd1394.dll\5A75D524b000\kd1394.dll - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\kd1394.dll\5A75D524b000\kd1394.dl_ - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\kd1394.dll\5A75D524b000\file.ptr - path not found
+SYMSRV:  RESULT: 0x80070003
+SYMSRV:  BYINDEX: 0x51
+         C:\ProgramData\Dbg\sym*https://msdl.microsoft.com/download/symbols
+         kd1394.dll
+         5A75D524b000
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\kd1394.dll\5A75D524b000\kd1394.dll - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\kd1394.dll\5A75D524b000\kd1394.dl_ - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\kd1394.dll\5A75D524b000\file.ptr - path not found
+SYMSRV:  HTTPGET: /download/symbols/kd1394.dll/5A75D524b000/kd1394.dll
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  HTTPGET: /download/symbols/kd1394.dll/5A75D524b000/kd1394.dl_
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  HTTPGET: /download/symbols/kd1394.dll/5A75D524b000/file.ptr
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  RESULT: 0x80190194
+SYMSRV:  BYINDEX: 0x52
+         C:\ProgramData\Dbg\sym
+         kdnet.dll
+         5A75D524b000
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\kdnet.dll\5A75D524b000\kdnet.dll - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\kdnet.dll\5A75D524b000\kdnet.dl_ - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\kdnet.dll\5A75D524b000\file.ptr - path not found
+SYMSRV:  RESULT: 0x80070003
+SYMSRV:  BYINDEX: 0x53
+         C:\ProgramData\Dbg\sym*https://msdl.microsoft.com/download/symbols
+         kdnet.dll
+         5A75D524b000
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\kdnet.dll\5A75D524b000\kdnet.dll - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\kdnet.dll\5A75D524b000\kdnet.dl_ - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\kdnet.dll\5A75D524b000\file.ptr - path not found
+SYMSRV:  HTTPGET: /download/symbols/kdnet.dll/5A75D524b000/kdnet.dll
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  HTTPGET: /download/symbols/kdnet.dll/5A75D524b000/kdnet.dl_
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  HTTPGET: /download/symbols/kdnet.dll/5A75D524b000/file.ptr
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  RESULT: 0x80190194
+DBGHELP: C:\WINDOWS\system32\kdcom.dll - mismatched timestamp
+DBGHELP: C:\WINDOWS\system32\kdusb.dll - mismatched timestamp
+DBGHELP: C:\WINDOWS\system32\kd1394.dll - file not found
+DBGHELP: C:\WINDOWS\system32\kdnet.dll - mismatched timestamp
+SYMSRV:  BYINDEX: 0x54
+         https://msdl.microsoft.com/download/symbols
+         kdcom.dll
+         5A75D524b000
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\kdcom.dll\5A75D524b000\kdcom.dll - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\kdcom.dll\5A75D524b000\kdcom.dl_ - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\kdcom.dll\5A75D524b000\file.ptr - path not found
+SYMSRV:  HTTPGET: /download/symbols/kdcom.dll/5A75D524b000/kdcom.dll
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  HTTPGET: /download/symbols/kdcom.dll/5A75D524b000/kdcom.dl_
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  HTTPGET: /download/symbols/kdcom.dll/5A75D524b000/file.ptr
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  RESULT: 0x80190194
+SYMSRV:  BYINDEX: 0x55
+         https://msdl.microsoft.com/download/symbols
+         kdusb.dll
+         5A75D524b000
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\kdusb.dll\5A75D524b000\kdusb.dll - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\kdusb.dll\5A75D524b000\kdusb.dl_ - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\kdusb.dll\5A75D524b000\file.ptr - path not found
+SYMSRV:  HTTPGET: /download/symbols/kdusb.dll/5A75D524b000/kdusb.dll
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  HTTPGET: /download/symbols/kdusb.dll/5A75D524b000/kdusb.dl_
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  HTTPGET: /download/symbols/kdusb.dll/5A75D524b000/file.ptr
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  RESULT: 0x80190194
+SYMSRV:  BYINDEX: 0x56
+         https://msdl.microsoft.com/download/symbols
+         kd1394.dll
+         5A75D524b000
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\kd1394.dll\5A75D524b000\kd1394.dll - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\kd1394.dll\5A75D524b000\kd1394.dl_ - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\kd1394.dll\5A75D524b000\file.ptr - path not found
+SYMSRV:  HTTPGET: /download/symbols/kd1394.dll/5A75D524b000/kd1394.dll
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  HTTPGET: /download/symbols/kd1394.dll/5A75D524b000/kd1394.dl_
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  HTTPGET: /download/symbols/kd1394.dll/5A75D524b000/file.ptr
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  RESULT: 0x80190194
+SYMSRV:  BYINDEX: 0x57
+         https://msdl.microsoft.com/download/symbols
+         kdnet.dll
+         5A75D524b000
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\kdnet.dll\5A75D524b000\kdnet.dll - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\kdnet.dll\5A75D524b000\kdnet.dl_ - path not found
+SYMSRV:  UNC: C:\ProgramData\Dbg\sym\kdnet.dll\5A75D524b000\file.ptr - path not found
+SYMSRV:  HTTPGET: /download/symbols/kdnet.dll/5A75D524b000/kdnet.dll
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  HTTPGET: /download/symbols/kdnet.dll/5A75D524b000/kdnet.dl_
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  HTTPGET: /download/symbols/kdnet.dll/5A75D524b000/file.ptr
+SYMSRV:  HttpQueryInfo: 80190194 - HTTP_STATUS_NOT_FOUND
+SYMSRV:  RESULT: 0x80190194
+DBGENG:  kdcom.dll - Image mapping disallowed by non-local path.
+
+
+Press ctrl-c (cdb, kd, ntsd) or ctrl-break (windbg) to abort symbol loads that take too long.
+Run !sym noisy before .reload to track down problems loading symbols.
+
+.............................................................
+................................................................
+................................................................
+.......................
+Loading User Symbols
+Loading unloaded module list
+.........
+SYMSRV:  BYINDEX: 0x58
+         C:\ProgramData\Dbg\sym
+         watchdog.sys
+         2147479916000
+SYMSRV:  PATH: C:\ProgramData\Dbg\sym\watchdog.sys\2147479916000\watchdog.sys
+SYMSRV:  RESULT: 0x00000000
+DBGHELP: C:\ProgramData\Dbg\sym\watchdog.sys\2147479916000\watchdog.sys - OK
+DBGENG:  C:\ProgramData\Dbg\sym\watchdog.sys\2147479916000\watchdog.sys - Mapped image memory
+SYMSRV:  BYINDEX: 0x59
+         C:\ProgramData\Dbg\sym
+         watchdog.pdb
+         232BAF6A5C2594F89F9464FDA5F3AD361
+SYMSRV:  PATH: C:\ProgramData\Dbg\sym\watchdog.pdb\232BAF6A5C2594F89F9464FDA5F3AD361\watchdog.pdb
+SYMSRV:  RESULT: 0x00000000
+DBGHELP: watchdog - public symbols  
+        C:\ProgramData\Dbg\sym\watchdog.pdb\232BAF6A5C2594F89F9464FDA5F3AD361\watchdog.pdb
+
+************* Symbol Loading Error Summary **************
+Module name            Error
+ntkrnlmp               The system cannot find the file specified
+				The SYMSRV client failed to find a file in the UNC store, or there
+				is an invalid UNC store (an invalid path or the pingme.txt file is
+				not present in the root directory), or the file is present in the
+				symbol server exclusion list.
